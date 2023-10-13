@@ -13,6 +13,8 @@
 		AA31B3E32AD9CB0000FD9C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA31B3E12AD9CB0000FD9C11 /* Main.storyboard */; };
 		AA31B3E52AD9CB0100FD9C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA31B3E42AD9CB0100FD9C11 /* Assets.xcassets */; };
 		AA31B3E82AD9CB0100FD9C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA31B3E62AD9CB0100FD9C11 /* LaunchScreen.storyboard */; };
+		AA31B3F02AD9CB4900FD9C11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31B3EF2AD9CB4900FD9C11 /* FirstViewController.swift */; };
+		AA31B3F22AD9CB5700FD9C11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31B3F12AD9CB5700FD9C11 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AA31B3E42AD9CB0100FD9C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA31B3E72AD9CB0100FD9C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA31B3E92AD9CB0100FD9C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA31B3EF2AD9CB4900FD9C11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AA31B3F12AD9CB5700FD9C11 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AA31B3DD2AD9CB0000FD9C11 /* SceneDelegate.swift */,
 				AA31B3DF2AD9CB0000FD9C11 /* ViewController.swift */,
 				AA31B3E12AD9CB0000FD9C11 /* Main.storyboard */,
+				AA31B3EF2AD9CB4900FD9C11 /* FirstViewController.swift */,
+				AA31B3F12AD9CB5700FD9C11 /* SecondViewController.swift */,
 				AA31B3E42AD9CB0100FD9C11 /* Assets.xcassets */,
 				AA31B3E62AD9CB0100FD9C11 /* LaunchScreen.storyboard */,
 				AA31B3E92AD9CB0100FD9C11 /* Info.plist */,
@@ -141,6 +147,8 @@
 				AA31B3E02AD9CB0000FD9C11 /* ViewController.swift in Sources */,
 				AA31B3DC2AD9CB0000FD9C11 /* AppDelegate.swift in Sources */,
 				AA31B3DE2AD9CB0000FD9C11 /* SceneDelegate.swift in Sources */,
+				AA31B3F22AD9CB5700FD9C11 /* SecondViewController.swift in Sources */,
+				AA31B3F02AD9CB4900FD9C11 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
