@@ -52,11 +52,51 @@ class FirstViewController: UIViewController {
         if Double(txtNum1.text!) != nil && Double(txtNum2.text!) != nil {
             num1 = Double(txtNum1.text!)!
             num2 = Double(txtNum2.text!)!
+            result = num1 + num2
+            txtResult.text = String(result)
+        }else{
+            showAlert(title: "Error", msg: "Debe introducir solo valores numericos")
+            print("Error al realizar la operacion")
+        }
+    }
+    @IBAction func btnRestar(_ sender: Any) {
+        if Double(txtNum1.text!) != nil && Double(txtNum2.text!) != nil {
+            num1 = Double(txtNum1.text!)!
+            num2 = Double(txtNum2.text!)!
+            result = num1 - num2
+            txtResult.text = String(result)
+        }else{
+            showAlert(title: "Error", msg: "Debe introducir solo valores numericos")
+            print("Error al realizar la operacion")
+        }
+    }
+    
+    @IBAction func btnDividir(_ sender: Any) {
+        if Double(txtNum1.text!) != nil && Double(txtNum2.text!) != nil {
+            num1 = Double(txtNum1.text!)!
+            num2 = Double(txtNum2.text!)!
+            result = num1 / num2
             txtResult.text = String(result)
         }else{
             showAlert(title: "Erorr", msg: "Debe introducir solo valores numericos")
             print("Error al realizar la operacion")
         }
+    }
+    
+    @IBAction func btnMultiplicar(_ sender: Any) {
+        if Double(txtNum1.text!) != nil && Double(txtNum2.text!) != nil {
+            num1 = Double(txtNum1.text!)!
+            num2 = Double(txtNum2.text!)!
+            result = num1 * num2
+            txtResult.text = String(result)
+        }else{
+            showAlert(title: "Error", msg: "Debe introducir solo valores numericos")
+            print("Error al realizar la operacion")
+        }
+    }
+    
+    @IBAction func btnClean(_ sender: Any) {
+        clean()
     }
     
     override func viewDidLoad() {
